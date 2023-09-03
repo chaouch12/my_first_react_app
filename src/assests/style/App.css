@@ -1,0 +1,51 @@
+.align-default {
+    /*/ display , justify-content and align-items dima m3a b3adhoum en general y5dmous */
+    display: flex; /*/ display elements horizontalement */
+    align-items: center; /*/ alignement des elements centree */
+    justify-content: space-between;
+}
+.black-background {
+    background: #262626;
+}
+.header_bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.btn {
+    background: #82b440;
+    color: white;
+    border-radius: 5px;
+}
+.btn-text {
+    margin: 5px;
+    padding: 5px 20px;
+}
+
+.header-logo {
+/*marginRight:"15px", paddingRight:"20px"*/
+}
+
+.nav-bar {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.nav-content {
+    display: flex;
+    align-items: center;
+    /* space-around works wit gab: distance entre les elements est egale */
+    /*gab: distance entre les elements, par defaut space around a 0px gab*/
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.cursor {
+    cursor: grab;
+}
+
+.cursor:hover {
+    color: #808080FF;
+}
