@@ -9,14 +9,14 @@ import Documents from "../components/Documents";
       return (
           <BrowserRouter basename="/">
               <Routes>
-                  <Route path="/" element={<Main/>}/>
-                  <Route path="/Features" element={<Features/>}/>
-                  <Route path="/Demo" element={<Demo/>}/>
-                  <Route path="/Documents" element={<Documents/>}/>
+                  <Route path="/" element={<Main/>}>
+                      <Route path="/Features" element={<Features/>}/>
+                      <Route path="/Demo" element={<Demo/>}/>
+                      <Route path="/Documents" element={<Documents/>}/>
+                  </Route>
               </Routes>
           </BrowserRouter>
       );
 }
-
 
 export default Routers

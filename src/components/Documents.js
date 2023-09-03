@@ -7,7 +7,6 @@ function Documents () {
     return (
         <div>
             welcome in the Documents Component!
-            <button onClick={()=> navigate('/Features')}>go to features</button>
 
         </div>
 
