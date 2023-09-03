@@ -49,3 +49,7 @@
 .cursor:hover {
     color: #808080FF;
 }
+
+.form{
+    display: block;
+}
