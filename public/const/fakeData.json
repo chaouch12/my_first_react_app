@@ -1,0 +1,26 @@
+[
+  {
+    "id": 10,
+    "fullName": "walid chaouch",
+    "age": 27,
+    "address": "Moknine"
+  },
+  {
+    "id": 2,
+    "fullName": "ghada sg",
+    "age": 19,
+    "address": "Tunis"
+  },
+  {
+    "id": 3,
+    "fullName": "rania tb",
+    "age": 17,
+    "address": "Teboulba"
+  },
+  {
+    "id": 4,
+    "fullName": "jdidi ts",
+    "age": 20,
+    "address": "bni khalad"
+  }
+]

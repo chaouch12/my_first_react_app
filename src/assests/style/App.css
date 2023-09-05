@@ -4,6 +4,12 @@
     align-items: center; /*/ alignement des elements centree */
     justify-content: space-between;
 }
+
+.a-flex {
+    /*/ display , justify-content and align-items dima m3a b3adhoum en general y5dmous */
+    display: flex; /*/ display elements horizontalement */
+    align-items: center; /*/ alignement des elements centree */
+}
 .black-background {
     background: #262626;
 }
@@ -14,6 +20,9 @@
     padding-left: 20px;
 }
 
+.justify-content-around {
+    justify-content: space-around;
+}
 .btn {
     background: #82b440;
     color: white;
@@ -23,7 +32,9 @@
     margin: 5px;
     padding: 5px 20px;
 }
-
+.gray-background {
+    background: #808080FF;
+}
 .header-logo {
 /*marginRight:"15px", paddingRight:"20px"*/
 }
